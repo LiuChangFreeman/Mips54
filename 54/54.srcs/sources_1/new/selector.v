@@ -1,0 +1,40 @@
+module selector(
+    input ena,          //ena有效进行选择，否则输出高阻抗
+    input [31:0] id0,
+    input [31:0] id1,
+    input [31:0] id2,
+    input [31:0] id3,
+    input [31:0] id4,
+    input [31:0] id5,
+    input [31:0] id6,
+    input [31:0] id7,
+    input [31:0] id8,
+    input [31:0] id9,
+    input [31:0] id10,
+    input [31:0] id11,
+    input [31:0] id12,
+    input [31:0] id13,
+    input [31:0] id14,
+    input [31:0] id15,
+    input [31:0] id16,
+    input [31:0] id17,
+    input [31:0] id18,
+    input [31:0] id19,
+    input [31:0] id20,
+    input [31:0] id21,
+    input [31:0] id22,
+    input [31:0] id23,
+    input [31:0] id24,
+    input [31:0] id25,
+    input [31:0] id26,
+    input [31:0] id27,
+    input [31:0] id28,
+    input [31:0] id29,
+    input [31:0] id30,
+    input [31:0] id31,
+    input [4:0] iS,
+    output [31:0] z
+    );
+    assign z=ena?(iS[4]?(iS[3]?(iS[2]?(iS[1]?(iS[0]?id31:id30):(iS[0]?id29:id28)):(iS[1]?(iS[0]?id27:id26):(iS[0]?id25:id24))):(iS[2]?(iS[1]?(iS[0]?id23:id22):(iS[0]?id21:id20)):(iS[1]?(iS[0]?id19:id18):(iS[0]?id17:id16))))
+    :(iS[3]?(iS[2]?(iS[1]?(iS[0]?id15:id14):(iS[0]?id13:id12)):(iS[1]?(iS[0]?id11:id10):(iS[0]?id9:id8))):(iS[2]?(iS[1]?(iS[0]?id7:id6):(iS[0]?id5:id4)):(iS[1]?(iS[0]?id3:id2):(iS[0]?id1:id0))))):32'bz;
+endmodule

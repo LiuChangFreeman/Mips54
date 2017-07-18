@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sat Jul 15 15:51:50 2017
+# Process ID: 85056
+# Current directory: D:/onedrive/54/54.runs/mult_synth_1
+# Command line: vivado.exe -log mult.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult.tcl
+# Log file: D:/onedrive/54/54.runs/mult_synth_1/mult.vds
+# Journal file: D:/onedrive/54/54.runs/mult_synth_1\vivado.jou
+#-----------------------------------------------------------
+source mult.tcl -notrace

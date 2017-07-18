@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2017.1 (64-bit)
+# SW Build 1846317 on Fri Apr 14 18:55:03 MDT 2017
+# IP Build 1846188 on Fri Apr 14 20:52:08 MDT 2017
+# Start of session at: Sat Jul 15 15:51:50 2017
+# Process ID: 85056
+# Current directory: D:/onedrive/54/54.runs/mult_synth_1
+# Command line: vivado.exe -log mult.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mult.tcl
+# Log file: D:/onedrive/54/54.runs/mult_synth_1/mult.vds
+# Journal file: D:/onedrive/54/54.runs/mult_synth_1\vivado.jou
+#-----------------------------------------------------------
+INFO: [Common 17-1460] Use of init.tcl in C:/vivado/Vivado/2017.1/scripts/init.tcl is deprecated. Please use Vivado_init.tcl 
+Sourcing tcl script 'C:/vivado/Vivado/2017.1/scripts/init.tcl'
+source mult.tcl -notrace
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 364.180 ; gain = 82.641
+INFO: [Synth 8-638] synthesizing module 'mult' [d:/onedrive/54/54.srcs/sources_1/ip/mult/synth/mult.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'mult' (6#1) [d:/onedrive/54/54.srcs/sources_1/ip/mult/synth/mult.vhd:67]
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 416.555 ; gain = 135.016
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 416.555 ; gain = 135.016
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 416.555 ; gain = 135.016
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 416.555 ; gain = 135.016
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 520.160 ; gain = 238.621
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 520.160 ; gain = 238.621
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 523.824 ; gain = 242.285
+Finished IO Insertion : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 523.824 ; gain = 242.285
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 523.824 ; gain = 242.285
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 523.824 ; gain = 242.285
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 523.824 ; gain = 242.285
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 523.824 ; gain = 242.285
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 523.824 ; gain = 242.285
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |DSP48E1 |     4|
++------+--------+------+
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 523.824 ; gain = 242.285
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 603.930 ; gain = 323.891
+write_checkpoint: Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1012.754 ; gain = 408.824
